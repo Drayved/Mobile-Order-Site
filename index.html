@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <!-- Font icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+       <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <h1>Jimmy's Diner</h1>
+            <h3>The best burgers and pizza in town</h3>
+        </header>
+
+        <main>
+            <div id="feed">
+                <!-- menu here -->
+            </div>
+            <div class="order-container hidden" >
+                <h3 class="order-total">Your order<h3>
+                <div class="order-summary">
+               <!-- total and prices here -->
+                </div>
+                <div class="final-price">
+                    <h3 class="total-price">Total price:</h3>
+                    <p id="total" class="price"></p>
+                </div>
+                <div>
+                    <button class="complete-order-btn" type="submit">Complete order</button>
+                </div>
+            </div>
+            <div class="hidden form-container">
+                <h3 class="form-title">Enter card details</h3>
+                <form class="payment-form" onsubmit="return false">
+                    <input
+                    type="text"
+                    name="full-name"
+                    placeholder="Enter your name"
+                    required
+                    >
+
+                    <input 
+                    type="number"
+                    name="credit-card"
+                    placeholder="Enter card number"
+                    required
+                    >
+
+                    <input 
+                    type="number"
+                    name= "CVV"
+                    placeholder="Enter CVV"
+                    required
+                    >
+                    <button class="pay-btn" type="submit">Pay</button>
+                </form>
+            </div>
+            <div class="thank-you-container hidden">
+                <!-- Thank you message here -->
+            </div>
+        </main>
+
+    <script src="index.js" type="module"></script>
+
+    </body>
+</html>
+

@@ -1,0 +1,242 @@
+body ,
+html {
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    max-width: 767px;
+} 
+/* header */
+header{
+    background-image: url("images/burger.png");
+    background-color: #000000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+}
+
+h1, h3{
+    color: whitesmoke;
+    padding: 50px 50px;
+    margin: 0;
+    font-weight: bold;
+}
+
+h1{
+    padding-bottom: 0px;
+}
+
+h3{
+    padding-top: 0px;
+}
+
+/* Main content */
+
+#feed{
+    padding: 0px 30px;
+    margin-left: 20px;
+}
+
+.emoji{
+    font-size: 80px;
+    
+}
+
+.main-content{
+    margin-top: -20px;
+    margin-bottom: -70px;
+}
+
+.menu-content{
+    display: inline-block;
+    padding-left: 130px;
+    padding-bottom: 60px;
+    padding-top: 0px ;
+    margin: -190px 30px 10px 0px; 
+    border-bottom: 1px solid rgb(215, 214, 214);
+    width: 70%;
+}
+
+/* buttons */
+
+.plus-btn{
+    border:1px solid rgb(226, 222, 222);
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: -95px;
+    cursor: pointer;
+   
+
+}
+
+.order-btn{
+    background-color: green;
+    width: 400px;
+    
+}
+
+.complete-order-btn{
+    width:500px;
+    height: 50px;
+    border: none;
+    background-color: rgb(46, 230, 175);
+    color: white;
+    margin: auto;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Order summary */
+
+.order{
+    margin: 100px auto;
+    text-align: center;
+}
+
+
+
+.order-total{
+    text-align: center;
+    color: black;
+    padding-top: 60px;
+}
+
+.final-price{
+    border-top: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
+    
+}
+
+.total-price{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    align-items: center;
+    padding: 0;
+    width: 200px;
+    
+}
+
+.dollar-sign{
+    display: flex;
+    justify-content: end;
+    align-items:center;
+    padding: 0;
+    margin: -30px 10px 0px 0px;
+    
+}
+
+.list-items{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.list-items-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 1px;
+}
+
+h4{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.remove-btn{
+    border: none;
+    background-color: white;
+    opacity: 20%;
+    margin-left:5px ;
+    cursor: pointer;
+}
+
+.price{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    color: black;
+    height: 30px;
+    margin-top: -10px;
+}
+
+#total{
+    margin-top: -30px;
+    padding-bottom: 30px;
+}
+
+/* Payment form */
+.form-title{
+    color:black;
+    padding-top: 20px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:500px;
+    height:450px;
+    position: fixed;
+    right:0;
+    left:0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 0px 50px 0px rgb(222, 221, 221);
+}
+
+.payment-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:500px;
+    width: 450px;
+    margin: 35px;
+    font-size: 20px;
+}
+
+input{
+    padding:16px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.pay-btn{
+    background-color: rgb(46, 230, 175);
+    color: white;
+    padding: 16px;
+    border: none;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+/* Thank you message */
+.thank-you-message{
+    color: rgb(46, 230, 175);
+    background-color: rgb(238, 251, 255);
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+    padding: 40px 0px;
+    width:400px;
+}
+
+/* ninja stuff */
+.hidden{
+    display: none;
+}
